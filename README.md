@@ -4,6 +4,10 @@
 
 A dual-clock asynchronous FIFO implemented in SystemVerilog for reliable data transfer between independent clock domains.
 
+## Architecture
+
+![Asynchronous FIFO Architecture](docs/async_fifo_architecture.png)
+
 ## Specifications
 
 | Parameter | Value |
@@ -33,3 +37,6 @@ A dual-clock asynchronous FIFO implemented in SystemVerilog for reliable data tr
 - Reset behavior
 - Clock-domain crossing behavior
 - Functional coverage
+
+[def]: docs/async_fifo_architecture.png
+[def2]: docs/async_fifo_architecture.png
